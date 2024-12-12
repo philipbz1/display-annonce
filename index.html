@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV2-Inspireret Side</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #E30613;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+            }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .news {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .news-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .news-item img {
+            width: 100%;
+            height: auto;
+        }
+        .news-item h3 {
+            margin: 0;
+            padding: 0.5rem;
+            background-color: #E30613;
+            color: white;
+            font-size: 1.2rem;
+        }
+        .news-item p {
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        .ad-space {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px dashed #ccc;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .right-ad-space {
+            position: absolute;
+            top: 120px;
+            right: 12px;
+            width: 90px;
+            height: auto;
+            border: 1px dashed #ccc;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 1rem;
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TV2-Inspireret Side</h1>
+    </header>
+
+    <nav>
+        <a href="#">Nyheder</a>
+        <a href="#">Sport</a>
+        <a href="#">Underholdning</a>
+        <a href="#">Vejr</a>
+    </nav>
+
+    <div class="container">
+        <h2>Seneste Nyheder</h2>
+        <div class="news">
+            <div class="news-item">
+                <img src="aeldre-sagen-logo-billede-nyt-cvi.png" alt="Nyhed 1">
+                <h3>Nyhed 1</h3>
+                <p>Dette er en kort beskrivelse af nyheden.</p>
+            </div>
+            <div class="news-item">
+                <img src="aeldre-sagen-logo-billede-nyt-cvi.png" alt="Nyhed 2">
+                <h3>Nyhed 2</h3>
+                <p>Dette er en kort beskrivelse af nyheden.</p>
+            </div>
+            <div class="news-item">
+                <img src="aeldre-sagen-logo-billede-nyt-cvi.png" alt="Nyhed 3">
+                <h3>Nyhed 3</h3>
+                <p>Dette er en kort beskrivelse af nyheden.</p>
+            </div>
+        </div>
+
+        <div class="ad-space">
+             <a href="stofmisbrug.html" target="_blank">
+            <img src="GetImage.png" alt="skitse">
+        </div>
+         <div class="right-ad-space">
+             <a href="stofmisbrug.html" target="_blank">
+        <img src="GetImage%20(1).png" alt="skitse">
+    </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TV2-Inspireret Side</p>
+    </footer>
+</body>
+</html>
